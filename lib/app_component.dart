@@ -15,7 +15,7 @@ import './UiKit/tabBar/tab_bar_component.dart';
 )
 class AppComponent {
   var name = 'UiKit';
-
+  
   List<String>  tabBarList = [
     "Home",
     "tab01",

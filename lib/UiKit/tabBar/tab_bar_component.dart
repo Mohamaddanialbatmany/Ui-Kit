@@ -11,9 +11,11 @@ import 'package:angular_forms/angular_forms.dart';
 class TabBar{
 
   @Input()
-  String tabBar;
-
   List<String> tabList;
 
-  String selected;
+  @Input()
+  String style;
+
+  int selected;
+
 }

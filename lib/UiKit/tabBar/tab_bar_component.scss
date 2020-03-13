@@ -1,0 +1,104 @@
+* {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    padding: 10px;
+    transition: all ease-in-out 500ms;
+
+}
+
+div {
+
+    .select {
+        font-weight: 700;
+        border-bottom: rgba(44, 44, 44, 0.698) solid 2px;
+        text-transform: capitalize;
+        color: rgba(109, 108, 108, 1);
+
+    }
+
+    a {
+        font-family: 'Bellota', cursive;
+        font-weight: 600;
+        text-transform: capitalize;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgba(109, 108, 108, 0.8);
+        text-transform: capitalize;
+        letter-spacing: 1px;    
+    }
+
+    a:hover {
+        border-bottom: black solid 2px;
+    }
+}
+
+
+.them01 {
+
+    div {
+        .select {
+            font-weight: 700;
+            border-bottom: rgba(44, 44, 44, 0.698) solid 2px;
+            text-transform: capitalize;
+            color: rgba(109, 108, 108, 1);
+
+        }
+
+        a {
+            font-family: 'Bellota', cursive;
+            font-weight: 600;
+            text-transform: capitalize;
+            border-radius: 10px;
+            text-decoration: none;
+            color: rgba(109, 108, 108, 0.8);
+        }
+
+        a:hover {
+            border-bottom: black solid 2px;
+        }
+    }
+
+}
+
+.them02 {
+
+    .select {
+        font-weight: 500;
+        border-bottom: none;
+        text-transform: capitalize;
+    }
+
+    a {
+        font-family: 'Bellota', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        border: black 1px solid;
+    }
+
+    a:hover {
+        border-bottom: black solid 2px;
+        border-bottom: none;
+    }
+}
+
+.them03 {
+
+    .select {
+        font-weight: 500;
+        border-bottom: black solid 2px;
+        text-transform: capitalize;
+        background-color: rgba(180, 180, 255, 0.979);
+    }
+
+    a {
+        font-family: 'Bellota', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        background-color: rgba(170, 170, 251, 0.822);
+    }
+
+    a:hover {
+        border-bottom: black solid 2px;
+        border-top: black solid 2px;
+    }
+}

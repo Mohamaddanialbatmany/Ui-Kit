@@ -1,6 +1,7 @@
 <div>
-    <a *ngFor="let tab of tabList">
-        {{tab}}
+    <a href="#"  *ngFor="let bar of tabList; let i=index"
+        [class.select]="selected === i"
+        (click)="selected = i">
+        {{bar}}
     </a>
-    tabs
 </div>
