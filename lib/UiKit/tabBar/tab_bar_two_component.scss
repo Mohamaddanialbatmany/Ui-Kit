@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    padding: 10px;
+    transition: all ease-in-out 100ms;
+
+}
+
+div {
+    transition: all ease-in-out 100ms;
+
+    .select {
+        font-weight: 700;
+        text-transform: capitalize;
+        border-bottom: rgba(0, 128, 233, 0.308) solid 2px;
+        text-decoration: none;
+
+    }
+
+    a {
+        font-family: 'Bellota', cursive;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: rgba(41, 255, 112, 0.767);
+        margin-right: 3px;
+    }
+
+    a:hover {
+        border-bottom: rgba(0, 128, 233, 0.308) solid 2px;        text-decoration: none;
+        text-decoration: none;
+
+    }
+}

@@ -2,29 +2,35 @@
     text-align: center;
     margin: 50px 0 20px 0;
     padding: 10px;
-    transition: all ease-in-out 500ms;
-}
+    transition: all ease-in-out 100ms;
 
+}
 div {
+    transition: all ease-in-out 100ms;
+
     .select {
         font-weight: 700;
-        border-bottom: rgba(44, 44, 44, 0.698) solid 2px;
+        border-bottom: none;
         text-transform: capitalize;
         color: rgba(109, 108, 108, 1);
+        text-decoration: none;
+
     }
 
     a {
         font-family: 'Bellota', cursive;
         font-weight: 600;
         text-transform: capitalize;
-        border-radius: 10px;
         text-decoration: none;
-        color: rgba(109, 108, 108, 0.8);
-        text-transform: capitalize;
-        letter-spacing: 1px;
+        border: rgba(0, 0, 0, 0.308) solid 1px;
+        margin-right: 3px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
 
     a:hover {
-        border-bottom: black solid 2px;
+        border-bottom: none;
+        text-decoration: none;
+
     }
 }
