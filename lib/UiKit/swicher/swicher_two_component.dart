@@ -1,19 +1,16 @@
-import 'dart:html';
-
 import 'package:angular/angular.dart';
 import 'package:angular_forms/angular_forms.dart';
 
 @Component(
-  selector: 'swicher-p',
-  template: '''<div>
+  selector: 'swicher-two',
+  template: ''' <div>
                   <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider "></span>
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
                   </label>
                 </div>
             ''',
   styleUrls: ['swicher_component.css'],
   directives: [formDirectives, coreDirectives],
 )
-class Swichers {
-}
+class SwichersTwo {}

@@ -1,9 +1,11 @@
 import 'package:angular/angular.dart';
 import 'package:angular_forms/angular_forms.dart';
-import './UiKit/tabBar/tab_bar_component.dart';
+import 'UiKit/tabBar/tab_bar_component.dart';
 import 'UiKit/tabBar/tab_bar_two_component.dart';
-import './UiKit/tabBar/tab_bar_three_component.dart';
+import 'UiKit/tabBar/tab_bar_three_component.dart';
 import 'UiKit/swicher/swicher_component.dart';
+import 'UiKit/swicher/swicher_two_component.dart';
+import 'UiKit/button/button_submit.dart';
 
 @Component(
   selector: 'my-app',
@@ -16,6 +18,8 @@ import 'UiKit/swicher/swicher_component.dart';
     TabBarTwo,
     TabBarThree,
     Swichers,
+    SwichersTwo,
+    SubBtn,
   ],
 )
 class AppComponent {
