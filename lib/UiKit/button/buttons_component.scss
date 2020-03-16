@@ -1,0 +1,26 @@
+$main-height: 35px;
+$main-width: 75px;
+$transition-main: all ease-in-out 1000ms;
+
+* {
+  margin: 200px;
+  text-align: center;
+  justify-content: center;
+  transition: $transition-main;
+}
+
+.btnSubmit {
+  height: $main-height;
+  width: $main-width;
+  background-color: rgba(202, 202, 202, 0.842);
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.btnSubmit:hover {
+  background-color: rgb(201, 240, 94);
+  border-radius: 20px;
+  box-shadow: 1px 2px rgba(243, 243, 243, 0.637);
+  color: rgba(77, 77, 77, 0.835);
+}
