@@ -5,7 +5,8 @@ import 'UiKit/tabBar/tab_bar_two_component.dart';
 import 'UiKit/tabBar/tab_bar_three_component.dart';
 import 'UiKit/swicher/swicher_component.dart';
 import 'UiKit/swicher/swicher_two_component.dart';
-import 'UiKit/button/button_submit.dart';
+import 'UiKit/button/subBtn_component.dart';
+import 'UiKit/button/complitBtn_conmponent.dart';
 
 @Component(
   selector: 'my-app',
@@ -20,6 +21,7 @@ import 'UiKit/button/button_submit.dart';
     Swichers,
     SwichersTwo,
     SubBtn,
+    ComBtn,
   ],
 )
 class AppComponent {
