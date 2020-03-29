@@ -1,36 +1,24 @@
 * {
-    text-align: center;
-    margin: 50px 0 20px 0;
-    padding: 10px;
-    transition: all ease-in-out 100ms;
-
+  text-align: center;
+  margin: 50px 0 20px 0;
+  padding: 10px;
 }
 div {
-    transition: all ease-in-out 100ms;
+  .select {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: none;
+  }
 
-    .select {
-        font-weight: 700;
-        border-bottom: none;
-        text-transform: capitalize;
-        color: rgba(109, 108, 108, 1);
-        text-decoration: none;
+  a {
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 1px;
+    border: rgba(0, 0, 0, 0.308) solid 1px;
+    color: rgb(20, 20, 20);
+  }
 
-    }
-
-    a {
-        font-family: 'Bellota', cursive;
-        font-weight: 600;
-        text-transform: capitalize;
-        text-decoration: none;
-        border: rgba(0, 0, 0, 0.308) solid 1px;
-        margin-right: 3px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-
-    a:hover {
-        border-bottom: none;
-        text-decoration: none;
-
-    }
+  a:hover {
+    border-bottom: none;
+  }
 }

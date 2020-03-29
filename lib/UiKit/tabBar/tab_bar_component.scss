@@ -1,30 +1,31 @@
 * {
-    text-align: center;
-    margin: 50px 0 20px 0;
-    padding: 10px;
-    transition: all ease-in-out 500ms;
+  text-align: center;
+  margin: 50px 0 20px 0;
+  padding: 10px;
 }
 
 div {
-    .select {
-        font-weight: 700;
-        border-bottom: rgba(44, 44, 44, 0.698) solid 2px;
-        text-transform: capitalize;
-        color: rgba(109, 108, 108, 1);
-    }
+  .select {
+    font-weight: 700;
+    border-left: rgb(49, 49, 49) solid 1px;
+    border-right: rgb(49, 49, 49) solid 1px;
+    text-transform: uppercase;
+    transition: ease-in-out 700ms;
+  }
 
-    a {
-        font-family: 'Bellota', cursive;
-        font-weight: 600;
-        text-transform: capitalize;
-        border-radius: 10px;
-        text-decoration: none;
-        color: rgba(109, 108, 108, 0.8);
-        text-transform: capitalize;
-        letter-spacing: 1px;
-    }
+  a {
+    font-family: "Bellota", cursive;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(81, 81, 81, 0.877);
+    letter-spacing: 1px;
+    transition: ease-in-out 700ms;
+  }
 
-    a:hover {
-        border-bottom: black solid 2px;
-    }
+  a:hover {
+    border-left: rgb(117, 117, 117) solid 1px;
+    border-right: rgb(117, 117, 117) solid 1px;
+    transition: ease-in-out 700ms;
+  }
 }

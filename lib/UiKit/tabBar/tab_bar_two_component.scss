@@ -1,35 +1,30 @@
 * {
-    text-align: center;
-    margin: 50px 0 20px 0;
-    padding: 10px;
-    transition: all ease-in-out 100ms;
-
+  text-align: center;
+  margin: 50px 0 20px 0;
+  padding: 10px;
 }
 
 div {
-    transition: all ease-in-out 100ms;
+  height: 20px;
+  width: 50px;
+  .select {
+    font-weight: 600;
+    background: rgb(240, 240, 240);
+    border-radius: 15px;
+    transition: all 700ms;
+  }
 
-    .select {
-        font-weight: 700;
-        text-transform: capitalize;
-        border-bottom: rgba(0, 128, 233, 0.308) solid 2px;
-        text-decoration: none;
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 3px;
+    color: rgb(27, 27, 27);
+    transition: all 700ms;
+  }
 
-    }
-
-    a {
-        font-family: 'Bellota', cursive;
-        font-weight: 600;
-        text-transform: capitalize;
-        text-decoration: none;
-        border-radius: 10px;
-        background-color: rgba(41, 255, 112, 0.767);
-        margin-right: 3px;
-    }
-
-    a:hover {
-        border-bottom: rgba(0, 128, 233, 0.308) solid 2px;        text-decoration: none;
-        text-decoration: none;
-
-    }
+  a:hover {
+    background: rgb(240, 240, 240);
+    border-radius: 15px;
+    transition: all 700ms;
+  }
 }
